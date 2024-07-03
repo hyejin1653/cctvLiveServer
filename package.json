@@ -1,0 +1,19 @@
+{
+  "name": "cctvliveserver",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "app": "./app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg . --target node12-win-x64"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "live-server": "^1.2.2"
+  }
+}
